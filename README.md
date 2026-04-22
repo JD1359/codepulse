@@ -1,6 +1,6 @@
 # CodePulse 
 
-> A real-time distributed code execution and collaboration platform — think LeetCode meets Google Docs, built from scratch.
+> A real-time distributed code execution and collaboration platform  think LeetCode meets Google Docs, built from scratch.
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
@@ -9,13 +9,13 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white)
 
-> 🚧 **Active Development** — Follow this repo for weekly updates
+> 🚧 **Active Development**  Follow this repo for weekly updates
 
 ---
 
 ## What is CodePulse?
 
-CodePulse is a multi-user collaborative coding platform where developers can write, execute, and share code in real time — across 5+ programming languages — without installing anything locally.
+CodePulse is a multi-user collaborative coding platform where developers can write, execute, and share code in real time across 5+ programming languages without installing anything locally.
 
 **Core challenge it solves:** Existing platforms like LeetCode and Replit are either single-user or lack true real-time collaboration with sandboxed execution. CodePulse combines both.
 
@@ -76,9 +76,9 @@ CodePulse is a multi-user collaborative coding platform where developers can wri
 
 | Layer | Technology | Why |
 |---|---|---|
-| Frontend | React + Monaco Editor | Same editor as VS Code — familiar, powerful |
+| Frontend | React + Monaco Editor | Same editor as VS Code familiar, powerful |
 | Real-time | Socket.io + Redis Pub/Sub | Horizontal scaling of WebSocket connections |
-| Backend | Node.js + Express | Non-blocking I/O — ideal for concurrent connections |
+| Backend | Node.js + Express | Non-blocking I/O  ideal for concurrent connections |
 | Execution | Docker | Isolation, resource control, language agnosticism |
 | Database | MongoDB Atlas | Flexible schema for session/execution log storage |
 | Auth | JWT (access + refresh) | Stateless, scalable authentication |
